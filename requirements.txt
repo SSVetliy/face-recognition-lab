@@ -1,2 +1,35 @@
-opencv-python==4.10.0.84
+# ── Команды ──────────────────────────────────────────
+# pip install -r requirements.txt
+# pip install --no-deps insightface-0.7.3-cp310-cp310-win_amd64.whl
+# python -c "import numpy, onnx, onnxruntime, cv2, insightface; print('numpy:', numpy.__version__); print('onnx:', onnx.__version__); print('onnxruntime:', onnxruntime.__version__); print('cv2:', cv2.__version__); print('insightface:', insightface.__version__)"
+
+# ── База ─────────────────────────────────────────────
 numpy==1.26.4
+typing-extensions==4.12.2
+PyYAML==6.0.2
+
+# ── Компьютерное зрение ─────────────────────────────
+opencv-python==4.10.0.84
+opencv-python-headless==4.10.0.84
+
+# ── ONNX-стек ────────────────────────────────────────
+onnx==1.16.1
+onnxruntime==1.18.1
+protobuf==5.28.3
+
+# ── Зависимости insightface (сам insightface ставится отдельно из WHL) ──
+albumentations==1.3.1
+albucore==0.0.19
+qudida==0.0.4
+
+# ── Утилиты (нужны insightface) ──────────────────────
+tqdm==4.66.5
+requests==2.32.3
+matplotlib==3.9.2
+Pillow==10.4.0
+scipy==1.14.1
+scikit-learn==1.5.2
+scikit-image==0.24.0
+easydict==1.13
+prettytable==3.11.0
+Cython==3.0.11
