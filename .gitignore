@@ -1,0 +1,27 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# Data (не коммитим тяжёлые файлы и биометрию)
+data/videos/*
+data/photos/*
+data/embeddings/*
+!data/videos/.gitkeep
+!data/photos/.gitkeep
+!data/embeddings/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
