@@ -18,9 +18,11 @@ __pycache__/
 data/videos/*
 data/photos/*
 data/embeddings/*
+data/logs/*
 !data/videos/.gitkeep
 !data/photos/.gitkeep
 !data/embeddings/.gitkeep
+!data/logs/.gitkeep
 
 # OS
 .DS_Store
